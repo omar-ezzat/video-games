@@ -2,6 +2,13 @@
 <html>
 	<head>
 		<style>
+			table, th, td{
+				border: 2px solid; 
+  				border-collapse: collapse;
+			}
+			.cells{
+				padding: 8px;
+			}
 			.row::after {
 				content: "";
 				clear: both;
@@ -18,6 +25,7 @@
 				padding-left: 20px;
 				padding-right: 20px;
 				background-color: lightblue; 
+				padding-bottom: 45px;
 			}
 		</style>
 		<title>video games</title>
@@ -40,5 +48,54 @@
 		<div>
 			<a href="nextPage.html" target="_blank"><p>History of video  games</p></a>
 		</div>
+		<table width="100%">
+			<tr>
+				<th class="cells"></th>
+				<th class="cells">monday</th>
+				<th class="cells">tuseday</th>
+				<th class="cells">wednesday</th>
+				<th class="cells">thursday</th>
+				<th class="cells">friday</th>
+			</tr>
+			<tr>
+				<td class="cells">1:00 p.m.</td>
+				<td class="cells" rowspan="2">league of leagends</td>
+				<td class="cells"></td>
+				<td class="cells" rowspan="2">Valorant</td>
+				<td class="cells" rowspan="8">PUBG mobile</td>
+				<td class="cells" rowspan="2">Fortnite</td>
+			</tr>
+			<tr>
+				<td class="cells">2:00 p.m.</td>
+				<td class="cells" rowspan="2">fifa</td>
+			</tr>
+			<tr>
+				<td class="cells">3:00 p.m.</td>
+				<td class="cells" rowspan="3">PUBG Pc</td>
+				<td class="cells" rowspan="3">GTA</td>
+				<td class="cells" rowspan="3">rocket league</td>
+			</tr>
+			<tr>
+				<td class="cells">4:00 p.m.</td>
+				<td class="cells"></td>
+			</tr>
+			<tr>
+				<td class="cells">5:00 p.m.</td>
+				<td class="cells" rowspan="3">call of duty</td>
+			</tr>
+			<tr>
+				<td class="cells">6:00 p.m.</td>
+				<td class="cells" rowspan="3">battlefield</td>
+				<td class="cells" rowspan="3">mobile leagends</td>
+				<td class="cells" rowspan="3">apex</td>
+			</tr>
+			<tr>
+				<td class="cells">7:00 p.m.</td>
+			</tr>
+			<tr>
+				<td class="cells">8:00 p.m.</td>
+				<td class="cells"></td>
+			</tr>
+		</table>
 	</body>
 </html>
